@@ -11,15 +11,12 @@
  font-weight: 400;
  font-size: 18px;
  line-height: 21.13px;
- 
- 
 }
 
 .header__logo-image {
  width: 148px;
  height: 105px;
  display: grid;
-
 }
 
 .header__links-list {
@@ -355,6 +352,8 @@
 .footer__social-list {
    display: flex;
    flex-direction: row;
+   list-style: none;
+   gap: 48px;
 }
 
 .footer__social-icon {
@@ -366,10 +365,6 @@
    list-style: none;
 }
 
-.footer__social-list {
-   list-style: none;
-   gap: 48px;
-}
 
 .footer__menu-link {
    text-decoration: underline;
