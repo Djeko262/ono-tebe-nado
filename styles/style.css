@@ -5,7 +5,6 @@
   grid-template-rows: auto;
 }
 
-
 /* сделал header и footer максимально похожими на макет. Блок address почему-то отображается у меня в браузере курсивом, поэтому не совпадает с макетом,
 хотя у меня в css прописан font-style, как в макете. */
 
@@ -31,7 +30,6 @@
   list-style-type: circle;
   padding-top: 44px;
   padding-bottom: 40px;
-
 }
 
 .header__link_active {
@@ -50,7 +48,7 @@
 
 .address {
   justify-self: right;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
@@ -302,28 +300,23 @@
 }
 
 .footer {
-  padding: 0 50px 88px 50px;;
+  padding: 0 50px 88px 50px;
   margin-top: 180px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer__address {
-   justify-self: right;
-   font-family: 'Raleway', sans-serif;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 24.3px;
-   color: black;
-   text-underline-position: under;
-   width: 100%;
-   max-width: 240px;
-   
-
+  justify-self: right;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: black;
+  text-underline-position: under;
+  width: 100%;
+  max-width: 240px;
 }
-
-
 
 .footer__social-list {
   display: flex;
